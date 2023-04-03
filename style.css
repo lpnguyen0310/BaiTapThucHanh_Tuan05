@@ -1,6 +1,6 @@
 #main{
     box-sizing: border-box;
-    padding-top: 0px;
+    margin: auto;
 }
 
 #header{
@@ -39,3 +39,88 @@
 
 }
 
+
+#center{
+
+    width: 1195px;
+   height: 1180px;
+    margin: auto;
+}
+
+
+#rating{
+    display: flex;
+    justify-content: space-between;
+    margin-top:-20px;
+}
+
+#rating-star{
+    display: flex;
+    justify-content: space-evenly;
+
+    width: 200px;
+    align-items: center;
+}
+
+.heart{
+    display: flex;
+    align-items: center;
+}
+
+#share{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    align-items: center;
+    color:grey;
+}
+
+#img{
+
+    display: flex;
+    align-items: center;
+    margin-top:10px
+}
+
+.img-small{
+    width: 750px;
+    padding-left: 25px;
+}
+
+#description{
+    
+    height: 390px;
+ red;
+}
+#description-left{
+    width: 750px;
+}
+
+.nd{
+    color: grey;
+}
+
+.container{
+    padding-top: 30px;
+    display: flex;
+    width: 330px;
+    justify-content: space-between;
+}
+.dichvu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1{
+    padding-top: 15px;
+    display: flex;
+    width: 360px;
+    justify-content: space-between;
+}
+.container2{
+    padding-top: 15px;
+    display: flex;
+    width: 395px;
+    justify-content: space-between;
+}
