@@ -1,0 +1,41 @@
+#main{
+    box-sizing: border-box;
+    padding-top: 0px;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(167, 166, 166,0.2);
+    width: 1520px;
+    height: 70px;
+    align-items: center;
+}
+
+.hearder-left{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    width: 630px;
+
+
+}
+#menu-left{
+    width: 510px;
+    justify-content: space-evenly;
+    display: flex;
+    list-style-type: none;
+    color: grey;
+    
+}
+
+
+
+#header-right{
+    display: flex;
+    align-items: center;
+    width: 480px;
+    justify-content: space-evenly;
+
+}
+
