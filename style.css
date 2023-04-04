@@ -43,7 +43,7 @@
 #center{
 
     width: 1195px;
-   height: 1180px;
+   height: 1990px;
     margin: auto;
 }
 
@@ -252,4 +252,68 @@
     padding-left: 15px;
     align-items: center;
 
+}
+
+#footer{
+    width: 1195px;
+   height: 580px;
+    margin: auto;
+}
+
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+}
+
+
+#thongtin{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.footer-menu{
+    list-style-type: none;
+    padding: 10px;
+ 
+}
+
+.footer-menu li{
+    padding: 10px;
+}
+
+#menu-end{
+    display: flex;
+    justify-content: space-evenly;
+    width: 250px;
+    padding-left: 0px;
+}
+
+#footer-end{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+#footer-center{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: grey;
+}
+
+.footer-end-left{
+    display: flex;
+    width: 160px;
+    height: 25px;
+    justify-content: space-evenly;
 }
