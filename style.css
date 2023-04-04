@@ -212,3 +212,44 @@
     align-items: center;
   
 }
+
+
+.related{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#products{
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    
+
+}
+
+
+.fruits{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 350px;
+    justify-content: space-evenly;
+    border: 1px solid whitesmoke;
+}
+
+.span{
+    color: aqua;
+    font-size: 20px;
+
+    padding-left: 15px;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    height: 25px;
+    width: 250px;
+    padding-left: 15px;
+    align-items: center;
+
+}
